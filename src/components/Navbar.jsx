@@ -1,7 +1,7 @@
 import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
-import { logo } from "../utils/utils";
 import SearchBar from "./SearchBar";
+import SlowMotionVideoIcon from "@mui/icons-material/SlowMotionVideo";
 
 function Navbar() {
   return (
@@ -16,8 +16,12 @@ function Navbar() {
         top: 0,
       }}
     >
+      {/* <Link to="/" style={{ display: "flex", alignItems: "center" }}>
+        <img src={SlowMotionVideoIcon} alt="logo" height={45} />
+      </Link> */}
+
       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-        <img src={logo} alt="logo" height={45} />
+        <SlowMotionVideoIcon style={{ fontSize: 45, color: "white" }} />
       </Link>
 
       <SearchBar />

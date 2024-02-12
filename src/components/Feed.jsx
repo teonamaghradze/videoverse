@@ -28,13 +28,13 @@ function Feed() {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <Typography
+        {/* <Typography
           className="copyright"
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
         >
           Copyright 2024
-        </Typography>
+        </Typography> */}
       </Box>
 
       <Box p={2} sx={{ overflow: "auto", height: "90vh", flex: 2 }}>
@@ -44,7 +44,7 @@ function Feed() {
           mb={2}
           sx={{ color: "white" }}
         >
-          {selectedCategory} <span style={{ color: "#F31503" }}>videos</span>
+          {selectedCategory} <span style={{ color: "#6338c7" }}>videos</span>
         </Typography>
 
         <Videos videos={videos} />

@@ -39,7 +39,7 @@ function SearchBar() {
           setSearchTerm(e.target.value);
         }}
       />
-      <IconButton type="submit" sx={{ p: "10px", color: "red" }}>
+      <IconButton type="submit" sx={{ p: "10px" }}>
         <Search />
       </IconButton>
     </Paper>

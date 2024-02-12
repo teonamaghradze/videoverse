@@ -1,4 +1,4 @@
-import { CheckCircle, Widgets } from "@mui/icons-material";
+import { CheckCircle } from "@mui/icons-material";
 import { Typography, Card, CardContent, CardMedia } from "@mui/material";
 import {
   demoVideoTitle,

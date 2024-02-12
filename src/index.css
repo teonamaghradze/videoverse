@@ -39,7 +39,7 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #fc1503 !important;
+  background-color: #6338c7 !important;
   color: white !important;
 }
 
@@ -82,9 +82,9 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-  .copyright {
+  /* .copyright {
     display: none !important;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {
